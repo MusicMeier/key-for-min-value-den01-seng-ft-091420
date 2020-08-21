@@ -9,3 +9,18 @@ def key_for_min_value(name_hash)
   end
  puts key
 end
+
+def key_for_min_value(name_hash)
+  lowest_key = nil
+  lowest_value = nil
+  
+  name_hash.count do |key, value|
+  	then you can compare each value
+    against lowest_value 
+    
+    and update lowest_key
+    and lowest_value accordingly
+
+  end
+
+end
